@@ -8,6 +8,11 @@
   },
   "author": "Wilmert Delorbe",
   "license": "MIT",
+  "dependencies": {
+    "code-mirror-themes": "^1.0.0",
+    "idb": "^6.1.2",
+    "webpack-cli": "^4.10.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
@@ -20,13 +25,8 @@
     "html-webpack-plugin": "^5.3.2",
     "style-loader": "^3.2.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.2.4"
-  },
-  "dependencies": {
-    "code-mirror-themes": "^1.0.0",
-    "idb": "^6.1.2"
   }
 }
