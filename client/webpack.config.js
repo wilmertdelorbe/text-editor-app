@@ -87,7 +87,7 @@ module.exports = () => {
       client: {
         webSocketURL: 'auto://0.0.0.0:0/ws',
       },
-      https: false,
+      https: true,
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
