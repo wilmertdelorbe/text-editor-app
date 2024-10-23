@@ -1,0 +1,18 @@
+{
+  "name": "advanced-text-editor-server",
+  "version": "1.0.0",
+  "description": "Server for Advanced Text Editor application",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js --ignore client"
+  },
+  "keywords": ["text editor", "server", "express"],
+  "author": "Wilmert Delorbe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
