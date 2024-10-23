@@ -1,7 +1,7 @@
 {
   "name": "advanced-text-editor-server",
   "version": "1.0.0",
-  "description": "Server for Advanced Text Editor application",
+  "description": "Server for Advanced Text Editor application (Trigger redeploy)",
   "main": "server/server.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
