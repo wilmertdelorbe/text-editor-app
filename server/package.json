@@ -4,15 +4,12 @@
   "description": "Server for Advanced Text Editor application",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js --ignore client"
+    "start": "node server.js"
   },
   "keywords": ["text editor", "server", "express"],
   "author": "Wilmert Delorbe",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
   }
 }
